@@ -1,5 +1,0 @@
-sceneSetups:
-- path: Assets/First_Sample.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
