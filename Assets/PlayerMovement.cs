@@ -5,7 +5,7 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
 
     public Rigidbody rb;
-    public float ForwardMovement = 2000f;
+    public float ForwardMovement = 10000f;
     public float sidewaysForce = 500f;
 
 
@@ -13,6 +13,6 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         rb.AddForce(0, 0, ForwardMovement * Time.deltaTime);
-
+      
     }
 }

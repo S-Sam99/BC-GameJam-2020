@@ -10,6 +10,17 @@ public class FollowPlayer : MonoBehaviour
     void Update()
     {
         transform.position = player.position + offset;
+
+        if (Input.GetKey("d"))
+        {
+           transform.Rotate(0, 0, -spin * Time.deltaTime);
+        }
+
+        if (Input.GetKey("a"))
+        {
+           transform.Rotate(0, 0, spin * Time.deltaTime);
+        }
+
     }
 
 }
